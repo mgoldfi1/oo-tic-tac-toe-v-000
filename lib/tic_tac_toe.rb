@@ -71,3 +71,4 @@ def won?
     @board[windex_1] = @board[windex_2] && @board[windex_2] = @board[windex_3] && position_taken?[windex_3]
   end
 end
+end
