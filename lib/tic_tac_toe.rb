@@ -98,4 +98,6 @@ def play
     puts "Congratulations #{{winner}}"
   elsif draw?
     puts "It has been a draw"
+  end
+end
 end
