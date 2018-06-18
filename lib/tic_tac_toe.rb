@@ -75,3 +75,5 @@ end
 def full?
   @board.all? == "X" || "O"
 end
+end
+end
