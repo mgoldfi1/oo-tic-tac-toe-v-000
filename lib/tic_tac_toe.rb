@@ -34,7 +34,6 @@ board[index] = token
   end
 
 def position_taken?(index)
-  index = input_to_index(@user_input)
 @board[index] == "X" || @board[index] == "O"
   end
 end
