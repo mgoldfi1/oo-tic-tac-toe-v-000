@@ -62,4 +62,11 @@ def current_player
     "O"
   end
 end
+
+def won?
+  WIN_COMBINATIONS.find do |win_combination|
+    windex_1 = win_combination[0]
+    windex_2 = win_combination[1]
+    windex_3 = win_combination[2]
+    
 end
