@@ -57,9 +57,9 @@ end
 
 def current_player
   if turn_count(@board).even?
-    "X"
-  else
     "O"
+  else
+    "X"
   end
 end
 end
