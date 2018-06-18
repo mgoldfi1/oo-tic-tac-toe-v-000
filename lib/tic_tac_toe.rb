@@ -73,7 +73,6 @@ def won?
 end
 
 def full?
-  @board.all? == "X" || "O"
-end
+  @board.all?{|i| i == "X"  || i == "O"}
 end
 end
