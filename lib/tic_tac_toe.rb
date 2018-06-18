@@ -89,4 +89,9 @@ def winner
   @board[won?[0]]
   end
 end
+
+def play 
+  until over?
+    turn
+  end
 end
