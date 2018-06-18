@@ -33,8 +33,7 @@ board = @board
 board[index] = token
   end
 
-def position_taken?
-
-  @board[@index] == "X" || @board[@index] == "O"
+def position_taken?(index)
+@board[@index] == "X" || @board[@index] == "O"
   end
 end
