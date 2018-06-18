@@ -33,7 +33,7 @@ def move(index, token = "X")
 def position_taken?(index)
 @board[index] == "X" || @board[index] == "O"
   end
-end
+
 
 def valid_move?(index)
   position_taken?(index) == false  && index.between?(0,8)
