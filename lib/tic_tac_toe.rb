@@ -95,9 +95,9 @@ def play
     turn
   end
   if won?
-    puts "Congratulations #{{winner}}"
+    puts "Congratulations #{{winner}}!"
   elsif draw?
-    puts "It has been a draw"
+    puts "Cat's Game!"
   end
 end
 end
